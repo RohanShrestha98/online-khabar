@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap');
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
+body{max-width: 1500px;}
+header{background: #2260BF;overflow: hidden;position: sticky;top: 0%;}
+.row{display: inline-flex;}
+a{text-decoration: none;color: black;}
+li{list-style: none;}
+.logo{width: 100%;margin-top: 1%;}
+.col-5{width: 30%;}
+.col-5 a img{width: 270px;margin-left: 8%;}
+.col-5 p{width: 75%;text-align: end; font-family: 'Mukta', sans-serif;opacity: 70%;}
+.col-7{width: 68%;text-align: end;}
+.col-7 a img{width:680px ;border-radius: 7px;margin-top: -10px;margin-bottom: 10px;}
+.names .row{padding: 10px 5%;}
+.names .row li a{font-size: 23px;font-family: 'Khand', sans-serif; font-weight: 600;color: white;margin-right: 30px;padding-top: 20px;}
+.names .row li a:hover{color:#70C9FF;}
+.names .row .active a{color: #70C9FF;}
+.english{margin-left: 6%;margin-top: 18px;}
+.english a{color: #ED1B24;font-family: 'Roboto', sans-serif;transition: all .3s ease;border-radius: 4px; background: white;padding: 8px 20px;font-weight: 600;}
+.english a:hover{color: white;background: #ED1B24;}
+.icons{margin-left: 10%;}
+.icons a {margin-top: 6%;}
+.icons i{color: white;margin-left: 20px;font-size: 32px;}
+.menu{ width: 30px; height: 4px; background-color: white;margin: 6px 0;}
+.menu_bar{text-align: end;margin-left: 2%;margin-top: 8px;}
+/* .dropdown a{color: white;font-size: 16px; border: none;}
+.dropdown {position: relative;display: inline-block;}
+.dropdown-content {display: none;background-color: #f1f1f1;min-width: 1000px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+.dropdown-content a {color: black;padding: 12px 16px;text-decoration: none;display: block;}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown a {background-color: #3e8e41;} */
+.Karalaya{margin-top: 10px;padding-bottom: 8px;width: 100%; padding-left: 50px;border-bottom: 1px solid #E0E9F6;}
+.Karalaya ul li{margin-right: 10px;}
+.Karalaya ul li img{width: 30px;height: 30px;border-radius: 50%;}
+.Karalaya ul li a{margin: auto;font-size: 14px;font-weight: 700;padding: 6px 15px 2px 12px;font-family: mukta,sans-serif;}
+.karalaya_name{width: 76%;overflow: hidden;}
+.search{text-align: end;width: 20%;}
+.search input{ height: 30px; width: 30px; text-align:center ; width: 250px;border-radius: 18px;background: #EEF3FA;border: none;}
+.Karalaya input:focus{outline: none;}
+.ads1{width: 100%;border-bottom: 1px solid #E0E9F6;border-top: 1px solid #E0E9F6;}
+.ads1 img{width: 90%;margin:15px 5% ;border-radius: 10px;}
+.news1{width: 100%;text-align: center;margin-bottom: 10px; margin-top: 10px;padding-bottom: 10px; border-bottom: 1px solid #E0E9F6;}
+.news1_heading a{margin: auto; color: #102C57; font-size: 68px;font-family: mukta,sans-serif;font-weight: 600;letter-spacing: 1px;}
+.news1_heading a:hover{color: #034DA2;}
+.news1_time img{width: 40px;border-radius: 50%;}
+.news1_time a{font-family: mukta,sans-serif;margin: auto;padding: 8px;font-weight: 500;}
+.news1_time i{padding:8px;margin: auto;}
+.blue{color: blue;}
+.news1_img{width: 100%;border-bottom: 1px solid #E0E9F6;margin-bottom: 10px;padding-bottom: 20px;}
+.news1_img img{width: 90%;margin-left: 5%;margin-right: 5%; margin-top: 20px;border-radius: 10px;height: 600px;object-fit: cover;}
+.news1_desc{margin: 10px 5%;text-align: center;}
+.news1_desc a{ font-size: 20px;font-family: mukta,sans-serif;margin: auto;align-items: center;}
+.taja_update{width: 100%;border-bottom: 1px solid #E0E9F6;padding-bottom: 10px;}
+.taja_update_img{width: 42%;}
+.taja_update_img img{width: 90%;margin-left: 5%;height: 550px;object-fit: cover;border-radius: 5px;}
+.taja_update_img img:hover{opacity: 90%;}
+.taja_update_new{width: 29%;}
+.taja_update_new_row{width: 96%;margin-left: 2%;margin-right: 2%;}
+.taja_img{width: 45%;margin-right: 4%;}
+.taja_img img{width: 100%;border-radius: 5px;object-fit: cover;height: 120px;margin-bottom: 3%;}
+.img_desc{width: 55%;margin-top: 2%;}
+.img_desc a{font-size: 18px;font-weight:600;color: #23252D;}
+.img_desc a:hover{color: #034DA2;transition: 0.3s;}
+.time{margin-top: 10%;color: #7D857F;}
+.time a{font-size: 12px;color: #7D857F;font-weight: 500;}
+.ads2{width: 29%;}
+.add2_img{width: 100%;text-align: center;}
+.add2_img img{width: 75%;border-radius: 5px;margin-bottom: 2%;}
+.button{width: 100%;text-align: center;margin-top: 10px;}
+.button_icon{width: 98%; padding:10px 20%;background: #FDA04E;color: white;}
+.button_icon i{margin-right: 10px;}
+.button_icon a{color: white;text-align: center;}
+.button_icon:hover{color:#FDA04E;background: rgb(255, 240, 240);}
+.button_icon:hover a{color:#FDA04E;}
+.samachar_ads{width: 100%;margin-top: 20px;border-bottom: 1px solid #E0E9F6;}
+.samachar{width: 75%;}
+.ads3{width: 25%;}
+.add3_img{width: 100%;}
+.add3_img img{width: 90%;margin-left: 5%;border-radius: 5px;margin-bottom: 8px;}
+.samachar_title{width: 86%;margin-left: 7%;}
+.samachar_all_a {margin: auto;}
+.samachar_all_a a{font-weight: 600;padding-right: 20px;}
+.samachar_all_a a:hover{color: #2260BF;}
+.samachar_all_a_num {margin: auto;}
+.samachar_all_a_num a{font-weight: 600;margin-left: 10px;padding: 7px 10px;color: #2260BF; background: #E0E9F6;border-radius: 50%;}
+.samachar_all_a_num a:hover{color: #e9f1fa;background: #2260BF;transition: 0.5s;}
+.samachar_a { float: left;color: #2260BF; font-size: 45px;font-family: khand,sans-serif;font-weight: 600;}
+.samachar_title a i{float: right;margin-top:10px;padding: 5px 10px;border-radius: 50%; background: #e9f1fa;color: #2260BF; }
+.samachar_title a i:hover{color: #e9f1fa;background: #2260BF;transition: 0.5s;}
+.samachar_info{width: 86%;margin-left: 7%;height: 400px;background: #F4F6F8;}
+.samachar_img {width: 50%;}
+.samachar_img img{width: 100%;height: 100%;object-fit: cover;}
+.samachar_information{width: 50%;margin: auto;}
+.samachar_information_a{width: 78%;margin-left: 11%;}
+.samachar_information_a a{font-size: 30px;font-weight: 600;}
+.samachar_information_a a:hover{color: #034DA2;}
+.samachar_information_a p{margin-top: 10%;}
+.samachar_information_a p a{font-size: 18px;font-weight: 500;}
+.samachar_information_a p a:hover{color: black;}
+.all_side{width: 88%;margin-left: 6%;margin-top: 2%;}
+.class_left_side{width: 50%;}
+.all_side .taja_img img{height: 90px;}
+.ads4{width: 88%;margin-left: 6%;border-top: 1px solid #E0E9F6;border-bottom: 1px solid #E0E9F6;}
+.ads4 img{width: 100%;border-radius: 5px;margin: 20px 0px;}
+.slider1 {width: 100%;background: #161A25;margin:20px 0px;color: white;}
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+    .icons{display: none;}
+    .menu_bar{margin-left: 8%;}
+    .news1_heading a{font-size: 55px;}
+    .news1_img img{height: 550px;}
+}
+@media (max-width:1110px) {
+    .menu_bar{margin-left: 4%;}
+    .english{margin-left: 4%;}
+    .search{display: none;}
+    .karalaya_name{width: 98%;text-align: center;}
+    .news1_heading a{font-size: 50px;}
+    .news1_img img{height: 500px;}
+}
+@media (max-width:1050px) {
+    .ads2{display: none;}
+    .ads3{display: none;}
+    .ads4{display: none;}
+    .samachar{width: 100%;}
+    .taja_update_new{width: 45%;}
+    .taja_update_img{width: 55%;}
+}
+@media (max-width:992px) {
+    .col-7{display: none;}
+    .col-5{position: sticky;background-color: white; top: 0px; width: 100%;text-align: center;border-bottom: 1px solid #E0E9F6;}
+    .col-5 a img{margin: 0%;margin-top: 15px;}
+    .col-5 p{text-align: center;width: 100%;margin-bottom: 15px;}
+    header{display: none;}
+    .ads1{display: none;}
+    .news1_heading a{font-size: 40px; margin-left: 5%;margin-right: 7%;text-align: center;}
+    .news1_img img{height: 450px;}
+}
+@media (max-width:850px) {
+    .karalaya_name{display: none;}
+    .Karalaya{border-bottom: none;}
+    .news1{margin-top: -10px;}
+    .news1_time img{width: 25px;height: 25px;margin: auto;}
+    .news1_time a{font-size: 14px;}
+    .news1_img img{height: 400px;}
+}
+@media (max-width:772px) {
+    .news1_img img{height: 350px;}
+    .news1_desc a{display: none;}
+    .taja_update{display: block;}
+    .taja_update_new{width: 90%;margin-left: 5%;}
+    .taja_update_img{width: 100%;}
+    .taja_update_img img{height: 140px;}
+    .samachar_info{display: block;background: none;}
+    .samachar_img {width: 100%;}
+    .samachar_information{display: none;}
+    .class_left_side{width: 100%;}
+    .all_side{display: block;margin-top: 7%;}
+}
+@media (max-width:576px) {
+    .news1_img img{height: 300px;margin-left: 2%;margin-right: 2%;width: 96%;}
+    .taja_update_img img{height: 120px;}
+}
